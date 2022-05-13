@@ -29,25 +29,25 @@ function gotResults(error, results){
         img3=document.getElementById("alien4");
         if (results[0].label=="clap"){
             img.src='aliens-01.gif';
-            img1.src='aiens-02.png';
+            img1.src='aliens-02.png';
             img2.src='aliens-03.png';
             img3.src='aliens-04.png';
         }
         else if(results[0].label=="snap"){
             img.src='aliens-01.png';
-            img1.src='aiens-02.gif';
+            img1.src='aliens-02.gif';
             img2.src='aliens-03.png';
             img3.src='aliens-04.png';
         }
         else if(results[0].label=="tap"){
             img.src='aliens-01.png';
-            img1.src='aiens-02.png';
+            img1.src='aliens-02.png';
             img2.src='aliens-03.gif';
             img3.src='aliens-04.png';   
         }
         else{
             img.src='aliens-01.png';
-            img1.src='aiens-02.png';
+            img1.src='aliens-02.png';
             img2.src='aliens-03.png';
             img3.src='aliens-04.gif';
         }
